@@ -1,0 +1,117 @@
+---
+layout: post
+title: "Knight-Mozilla Learning Lab Final Proposal - Locovidi"
+categories: [MozNewsLab]
+---
+
+A proposal for the Locovidi at the end of Knight-Mozilla Learning Lab.
+<!--more-->
+
+h3. Content
+
+* <a href="#idea">Idea</a>
+* <a href="#prototype">Prototype</a>
+* <a href="#useful">How Locovidi May Be Useful</a>
+* <a href="#similar">Other Similar Projects</a>
+
+h3(#idea). Idea
+
+notextile. <iframe width="560" height="349" src="http://www.youtube.com/embed/5O3p8u5sK7A?rel=0" frameborder="0" allowfullscreen></iframe><br/><br/>
+
+"Locovidi":http://locovidi.appspot.com helps to *connect* videos to places. It also helps to better *find* videos of places.
+
+The video above shows how easy it is to associate moments in a video with places on the map. The last half a minute illustrates how valuable it is to do so. For a place, a library in that case, we get a collection of video stories related to it, many of which are very relevant for newsrooms: anarchists demonstrations, protests against a school closure, city day celebration and so on. Yet, we also see the place in a perspective of slow journalism--how it and people around it are changing with time.
+
+The opensource code allows anybody to tailor it for her own needs. This may be people in a newsroom systematizing their videos and better engaging the audience, or a travel fanatic who wants to keep a location-aware video blog (think about it as Wordpress for this type of video blogging).
+
+Contributed data is open. This allows many mashups.
+
+h3(#prototype). Prototype
+
+In the present prototype a few features are implemented and many more are planned. These features are listed below, with details for some of them. Do not hesitate to ask questions in the comments.
+
+h4. What's Implemented
+
+* Login with Twitter.
+* Bookmarklet to submit a YouTube video.
+* Keyboard shortcuts that make video navigation fun and easy.
+* "Opensource library":http://code.google.com/p/geotiles/ that allows to store places in such a way that more important are seen at larger zooms.
+* Find a city or address when searching or making the connections.
+* Submit a place.
+* Connect a place to a moment in a video.
+* Rewind to a place by clicking its link in subtitles.
+* Delete a place or a video (only for admins at the moment).
+* See all videos with a place.
+* About page.
+* Feedback form.
+
+h4. What's Planned for the Future
+
+h5. Users
+
+* Login with multiple social networks.
+* User profiles, that may include videos submitted by the user, activity timeline, badges etc.
+* Badges and other forms of encouragement for content contribution.
+* Follow activity of users.
+
+h5. Videos
+
+* Enable as many online video providers as possible.
+* Tags, descriptions, time submitted and filmed and other information. These should be editable by everybody and need to be thought over.
+* Send feedback about a video: wrong information, incorrect connections etc.
+* Connect a place not to a moments, but less precise: just by saying that there is this place in this video.
+
+h5. Places
+
+* More mapping providers.
+* Connect to places from open location databases ("OpenStreetMap":http://osm.org, "CC0 database of places":http://blog.simplegeo.com/2011/08/01/august-updates/ by "Simplegeo":https://simplegeo.com/ and others).
+* Connect to cities and other large scale places.
+* Search for videos of a place with API from online video providers.
+* Follow videos of a place or a region (similar to how you follow people on Twitter).
+* Send feedback about a place: duplicate, wrong information etc.
+* Map with all places.
+
+h5. General
+
+* More keyboard shortcuts, including map, places and other elements navigation. It should be possible to do everything just with a keyboard.
+* Statistics on engagements, including visits from search engines.
+* Examples how the data may be used. For instance, a step-by-step instructions of a mashup of one's videos with "Popcorn.js":http://popcornjs.org/.
+
+h3(#useful). How Locovidi May Be Useful
+
+The main benefits for a news organization are:
+
+* The audience may find the relevant videos easier.
+* The staff may revisit old materials relevant to a specific location.
+
+More thoughts and examples about how Locovidi may be useful for a news organization may be found in "another blog post":http://dudarev.com/blog/moznewslab-week-3-how-locovidi-may-be-useful-to-news-ogranizations/. Here are two more examples illustrating the points.
+
+Naturally, users, when on the website, find videos of places because they can find a place with familiar map interface. Unexpectedly, I see increase in traffic from search engines even without any SEO:
+
+<center>
+<img src="http://chart.apis.google.com/chart?chxl=1:|Jul|Jul|Oct|Jan|Apr&chxp=1,0,12,3,6,9&chxr=0,0,120|1,0,12&chxs=0,676767,14,-0.5,l,676767|1,676767,14,0,l,676767&chxt=y,x&chs=400x250&cht=lc&chco=3D7930&chds=0,120&chd=t:0,2,3,5,26,26,29,14,31,46,28,112,44&chg=14.3,-1,6,1&chls=2&chma=0,10|0,10&chm=B,C5D4B5BB,0,0,0,1&chtt=Visits+from+search+engines&chts=676767,16" width="400" height="250" alt="Visits from search engines" />
+</center>
+ 
+A peak in June was due to two local news: opening of a new bus station, and an old hotel demolition. People are searching for places that are "making the news". So the audience "finds the relevant videos easier" even when not on the website, even now when its PageRank is zero. There are benefits in making your videos more searchable.
+
+When news videos are connected to places they may be revisited later with a map interface. Working on a story related to a place? Click a place and get the recent videos that were filmed there.
+
+<center>
+<iframe width="500px" height="300px" scrolling="no"  src="http://www.google.com/fusiontables/embedviz?viz=MAP&q=select+*+from+985751+&h=false&lat=47.99428716287938&lng=37.811851501464844&z=12&t=1&l=col1"></iframe>
+</center>
+
+This particular map is done with data stored in Google Fusion Tables. Many more approaches will be considered.
+
+h3(#similar). Other Similar Projects
+
+Youtube has "News Near You":http://www.google.com/support/youtube/bin/answer.py?hl=en&answer=158602 interface. Locovidi focuses on more hyperlocal approach.
+
+What if Youtube and other online video providers start paying more attention to location aspect of the videos? It will make me happy if Youtube starts borrowing some ideas from Locovidi similar to what Google+ does with Diaspora. The key feature of Locovidi is openness of generated data, so that it could be used by everybody.
+
+h4. Similar MozNewsLab Proposals
+
+"Juan Gonzalez":http://p2pu.org/en/juang/ suggests to build a web dashboard where timelapsed looped version of many videos are played. He addresses the same issue that I am trying to address with keyboard shortcuts in Locovidi: to skim through videos quickly. Watching a "video":http://www.youtube.com/watch?v=jbit9VRiyvo of his proposal, I've got an idea for a mashup with Locovidi data: a map with animated GIFs or videos of several places played at the same time. Juan's proposal seems very useful for a person in a newsroom who needs to skim through lots of videos. Locovidi aims to be more of a news platform by itself that may also be incorporated into other news organizations websites.
+
+<a href="http://p2pu.org/en/johntynan/">John Tynan</a>'s  project "Public Radio Roadtrip":http://publicradioroadtrip.appspot.com/publicradioroadtrip has many similarities with Locovidi. He is working on connecting audio and video to places. We exchanged messages and may collaborate in the future.
+
+Please, leave your feedback and question in the comments below.

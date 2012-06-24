@@ -1,0 +1,40 @@
+---
+layout: post
+title: "Blog Migration"
+categories: [Development]
+author_url: 
+---
+
+<a href="http://www.flickr.com/photos/nbachiyski/1463351154/" title="WordPress Security by Nikolay Bachiyski, on Flickr"><img src="http://farm2.static.flickr.com/1312/1463351154_9a104e8362.jpg" width="500" height="375" alt="WordPress Security"></a>
+Image credits: <a href="http://www.flickr.com/nbachiyski/">nbachiyski</a>.
+
+Here I will write why and how I am migrating from Wordpress to Jekyll.
+
+{% codeblock lang:bash%}
+rake preview
+rake deploy
+{% endcodeblock %}
+
+.bash_rc
+
+{% codeblock lang:bash%}
+alias bl='cd /home/dudarev/projects/blog/octopress_test/source/_posts'
+{% endcodeblock %}
+
+
+{% codeblock lang:bash%}
+#!/bin/bash
+gvim `ls -t | head -n 1`
+{% endcodeblock %}
+
+To start editing on a new machine: 
+
+* follow instructions to install rvm https://rvm.beginrescueend.com/rvm/install/ 
+* follow instructions to install all Octopress dependancies http://octopress.org/docs/setup/
+* I needed to updated RedCloth in Gemfile.lock to 4.2.8
+
+Custom styles are not updated when just starting with `rake preview`. Save one file from custom style settings:
+
+{% codeblock lang:bash %}
+vi sass/custom/_colors.scss
+{% endcodeblock %}

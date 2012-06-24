@@ -1,0 +1,38 @@
+---
+layout: post
+title: "How Locovidi May Be Useful for News Organizations"
+categories: [MozNewsLab]
+author: Artem Dudarev
+---
+
+Last week Knight-Mozilla news lab talks were given by "Shazna Nessa":http://www.shazna.com/, "Mohamed Nanabhay":http://www.mohamedn.com, and "Oliver Reichenstein":https://twitter.com/#!/iA. Shazna and Mohamed represent newsroom world (AP and Al Jazeera), and Oliver talked about building informational services for news organizations. They made me think about how Locovidi may be useful for news organizations.
+<!--more-->
+
+Al Jazeera has an excellent "collection":http://cc.aljazeera.net/ of videos licensed under Creative Commons license. Videos there have typical attributes: title, description, tags, language. Yet, they are also connected to countries (Egypt, Tunisia, Libya and others). All of the videos have a place as part of a story. There is big value in connecting videos to places even on finer level (city, neighbourhood, building, intersection and so on). Some benefits are:
+
+* The audience may find the relevant content easier.
+* The staff may revisit old materials relevant to a specific location.
+
+I have been collecting videos related to places, mostly around Donetsk in Ukraine, for almost a year. This was done by a search on YouTube with relevant keywords. Many videos come from news organizations. Here is not a full list with links to their YouTube profiles:
+
+*  "UnionTB":http://www.youtube.com/UnionTB - a regional TV station that posts lots of videos on YouTube
+*  "OrbitaTVChannel":http://www.youtube.com/OrbitaTVchannel - another regional TV station
+*  "Donbassnews":http://www.youtube.com/Donbassnews - a regional news website
+*  "NgoDonetskUa":http://www.youtube.com/NgoDonetskUa - a local blog about social issues
+*  "5channel":http://www.youtube.com/5channel - a national TV station
+*  "FocusUaOfficial":http://www.youtube.com/FocusUaOfficial - a national news website
+
+A recent example of a newsbreak type of a story that fits well into Locovidi: Last week, Mriya, the largest cargo airplane in the world, was opening the new runway in the Donetsk airport. It flew low over the city and lots of people were overreacting thinking that it is falling, many were filming it. In Locovidi these videos of the flight both from professional news organizations and amateurs are connected to places. Any video on the site now may be embedded with simple HTML: a code is provided for the video image, a static map of all places in it and links to places. Here is an example of one of the videos with Mriya:
+
+notextile. <notextile>
+<p>
+<a href="http://locovidi.appspot.com/video/yt/KII6m0tYm5M"><img border=0 src="http://img.youtube.com/vi/KII6m0tYm5M/0.jpg" alt="Донецк - Самолет Ан-225 Мрия" /></a>
+<a href="http://locovidi.appspot.com/video/yt/KII6m0tYm5M"><img border=0 src="http://maps.google.com/maps/api/staticmap?language=en&size=300x300&maptype=roadmap&markers=size:mid|color:red|48.0211300486,37.8101006697|48.0074291456,37.8450659464|48.0013418775,37.8447977255|48.0012848957,37.848971374|47.9960876214,37.8567284538|48.0015715988,37.8407851408|48.0015501746,37.8493950646|&sensor=false" alt="map" /></a>
+</p>
+</notextile>
+
+More approaches to embed videos connected to places will be implemented, including using JavaScript and iframes, embedding several videos related to one story or a place etc.
+
+Both Shazna and Mohamed mentioned that they monitor how users consume their content. Some traffic to Locovidi already comes from search engines. People do search for places in relationship to news stories. If the platform is used by a news organization this could allow journalists react to demand from the audience and direct more attention in the right direction.
+
+Recently, I've heard about the concept of "slow journalism" advocated in part by a Dutch photographer "Rob Hornstra":http://www.borotov.nl/. If you have a few spare minutes I recommend you to watch "a short film about him":http://www.youtube.com/watch?v=r0ezab8k2Ds. Locovidi fits well into this concept too, but this discussion should be left for another blog post.
