@@ -1,0 +1,28 @@
+---
+layout: post
+title: "SuperVPN"
+date: 2012-09-18 13:00
+comments: true
+categories: 
+---
+
+<figure>
+<a href="http://www.flickr.com/photos/waldenpond/2814128185/" title="Beach Music by Andrew Griffith">
+<img src="http://farm4.staticflickr.com/3296/2814128185_4f201b2c1f.jpg" width="500" height="288" alt="Beach Music">
+</a>
+<figcaption>
+Beach Music. Photo by <a href="http://www.flickr.com/photos/waldenpond/">Andrew Griffith</a>.
+</figcaption>
+</figure>
+
+It is not always easy to get media content from third world countries. 
+Thanks to services like <a href="http://www.supervpn.net/">SuperVPN</a> you may access external services via intermediate networks located in developed world 
+and use services like Spotify, Rdio, and others that block users from outside of the US and Europe.
+
+<!--more-->
+
+This is rather easy to set up <a href="http://en.wikipedia.org/wiki/Virtual_private_network">Virtual Private Network</a> (VPN) on Amazon EC2 instance. 
+The whole process is described in the relevant section of <a href="http://dudarev.com/wiki/Amazon-web-services.html">my wiki</a>.
+You may save an image of the virtual machine and use it later when needed. It just takes some time.
+
+SuperVPN offers a <a href="http://www.supervpn.net/free-vpn.html">free service</a> for a blog post. So I am checking how it works and will extend this post after I'll try it.
