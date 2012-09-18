@@ -1,0 +1,6 @@
+Link to this directory from `source` directory (in case of Octopress):
+
+```bash
+cd source
+ln -s ../../blog _posts
+```
