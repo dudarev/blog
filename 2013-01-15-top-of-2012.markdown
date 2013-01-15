@@ -1,0 +1,101 @@
+---
+layout: post
+title: "Top of 2012"
+date: 2013-01-15 23:00
+comments: true
+categories: 
+---
+
+<figure>
+<a href="http://dudarev.github.com/datavis/2013.gif" title="Animated Year Change, 2012 to 2013">
+<img src="http://dudarev.github.com/datavis/2013.gif" width="360" height="216" alt="Animated Year Change, 2012 to 2013">
+</a>
+</figure>
+
+This is my personal top of the past year in various categories.
+
+<!--more-->
+
+### Tool
+
+[Progress](https://github.com/dudarev/progress)
+
+Also: [Pathogen](http://dudarev.com/blog/keep-vim-settings-and-plugins-in-git-repo/), Moleskine
+
+### Project used by others
+
+[Mapjumper](http://dudarev.github.com/mapjumper/)
+
+### Team
+
+[42 coffee cups](http://42coffeecups.com/)
+
+### Event
+
+Hackathons (offline and online)
+
+### Podcast
+
+[Build and Analyse](http://5by5.tv/buildanalyze)
+
+### Podcast in Russian
+
+[Берись и делай](http://bid.podster.ru/)
+
+### Excersice
+
+[Walking](http://dudarev.github.com/datavis/009-walking-calendar.html)
+
+### Personal hack
+
+3 steps
+
+### Habbit
+
+Listening to audiobooks while commuting
+
+### Gadget
+
+Nexus 7
+
+### Game
+
+[Osmos HD](https://play.google.com/store/apps/details?id=com.hemispheregames.osmos)
+
+Also: [Boost](https://play.google.com/store/apps/details?id=com.jonathanlanis.boost)
+
+### Web service
+
+[Instagram](http://instagram.com/artdud)
+
+### Music service
+
+[Spotify](http://spotify.com)
+
+Also: [vk.com](http://vk.com)
+
+### Music album
+
+[OljnDvir](https://soundcloud.com/tchaikovskaya_aq/sets/oljndvir) by Аня Чайковская & AQ
+
+### Place
+
+[Izolyatsia](http://izolyatsia.org/)
+
+### TV Series
+
+[Breaking Bad](http://www.imdb.com/title/tt0903747/)
+
+Also: [Scherlock](http://www.imdb.com/title/tt1475582/)
+
+### Book
+
+[Steve Jobs: The Exclusive Biography](http://www.audible.com/pd/ref=sr_1_1?asin=B005XP2NTS&qid=1358288816&sr=1-1) by Walter Isaacson
+
+### Dance
+
+Tango
+
+### Travel
+
+Koktebel and Morskoe in August
