@@ -26,6 +26,10 @@ Also: [Pathogen](http://dudarev.com/blog/keep-vim-settings-and-plugins-in-git-re
 
 [Mapjumper](http://dudarev.github.com/mapjumper/)
 
+### Hosting
+
+Amazon EC2
+
 ### Team
 
 [42 coffee cups](http://42coffeecups.com/)
@@ -95,6 +99,8 @@ Also: [Scherlock](http://www.imdb.com/title/tt1475582/)
 ### Dance
 
 Tango
+
+Also: Balboa
 
 ### Travel
 
