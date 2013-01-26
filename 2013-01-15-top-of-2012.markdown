@@ -18,7 +18,7 @@ This is my personal top of the past year in various categories.
 
 ### Tool
 
-[Progress](https://github.com/dudarev/progress)
+[Progressio](https://github.com/dudarev/progressio)
 
 Also: [Pathogen](http://dudarev.com/blog/keep-vim-settings-and-plugins-in-git-repo/), Moleskine
 
