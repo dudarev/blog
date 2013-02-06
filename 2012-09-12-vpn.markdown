@@ -1,0 +1,31 @@
+---
+layout: post
+title: "VPN on Amazon EC2"
+date: 2012-09-18 13:00
+comments: true
+categories: 
+---
+
+<figure>
+<a href="http://www.flickr.com/photos/waldenpond/2814128185/" title="Beach Music by Andrew Griffith">
+<img src="http://farm4.staticflickr.com/3296/2814128185_4f201b2c1f.jpg" width="500" height="288" alt="Beach Music">
+</a>
+<figcaption>
+Beach Music. Photo by <a href="http://www.flickr.com/photos/waldenpond/">Andrew Griffith</a>.
+</figcaption>
+</figure>
+
+It is not always easy to get media content from third world countries. 
+Thanks to [Virtual Private Network][] (VPN) you may access external services via intermediate networks located in developed world,
+and use services like Spotify, Rdio, and others that block users from outside of the US and Europe.
+
+<!--more-->
+
+This is rather easy to set up  VPN on Amazon EC2 instance. 
+I keep description of the process to do it in [my wiki][]. But this process needs to be done just once.
+After that one can [create EBS AMI of that running instance][].
+It takes less than 3 minutes to launch one in the future.
+
+[Virtual Private Network]: http://en.wikipedia.org/wiki/Virtual_private_network
+[my wiki]: http://dudarev.com/wiki/Amazon-web-services.html
+[create EBS AMI of that running instance]: http://webkist.wordpress.com/2010/03/16/creating-an-amazon-ec2-ebs-ami-from-a-running-instance/
