@@ -7,7 +7,7 @@ categories:
 ---
 
 <figure>
-<a href="http://www.dataliberation.org/" title="Data Liberation Front logo"><img src="/images/Google-Liberation-Front_logo.png" width="525" height="490" alt="VIM"></a>
+<a href="http://www.dataliberation.org/" title="Data Liberation Front logo"><img src="/images/Google-Liberation-Front_logo.png" width="525" height="490" alt="Google Data Liberation Logo"></a>
 <figcaption>
 Google Data Liberation Front logo. Source: <a href="http://en.wikipedia.org/wiki/File:Google-Liberation-Front_logo.png">Wikipedia</a>.
 </figcaption>
