@@ -7,11 +7,11 @@ categories:
 ---
 
 <figure>
-<a href="http://www.flickr.com/photos/waldenpond/2814128185/" title="Beach Music by Andrew Griffith">
-<img src="http://farm4.staticflickr.com/3296/2814128185_4f201b2c1f.jpg" width="500" height="288" alt="Beach Music">
+<a href="http://www.flickr.com/photos/emayoh/2442998312/" title="Dan Deacon @ Coachella 2008 by Redfishingboat (Mick O), on Flickr">
+<img src="http://dudarev.com/i/dan-deacon-coachella-2008-500-333.jpg" width="500" height="333" alt="Dan Deacon @ Coachella 2008">
 </a>
 <figcaption>
-Beach Music. Photo by <a href="http://www.flickr.com/photos/waldenpond/">Andrew Griffith</a>.
+Dan Deacon @ Coachella 2008. Photo by <a href="http://www.flickr.com/photos/emayoh/">Mick O.</a>
 </figcaption>
 </figure>
 
