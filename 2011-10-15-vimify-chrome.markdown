@@ -3,7 +3,7 @@ layout: post
 title: "Vimify Chrome"
 date: 2011-10-11
 comments: true
-categories: 
+categories: vim
 meta: false
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: "Keep Vim Settings and Plugins in Git Repo"
 date: 2012-01-26 13:00
 comments: true
-categories: 
+categories: vim
 ---
 
 <figure>
