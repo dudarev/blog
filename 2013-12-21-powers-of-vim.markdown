@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Vim is Editing Language"
+title: "Powers of Vim"
 date: 2013-12-21
 comments: true
 categories: vim
@@ -8,19 +8,19 @@ categories: vim
 
 
 <figure>
-<a href="" title="">
-<img src="" width="" height="" alt="">
+<a href="http://www.flickr.com/photos/kent-chen/6825667892" title="ADM-3A Keyboard">
+<img src="http://dudarev.com/i/adm-3a-keyboard-500-277.jpg" width="500" height="277" alt="ADM-3A Keyboard">
 </a>
 <figcaption>
-Title
-Photo by <a href=""></a>.
+ADM-3A Keyboard
+Photo by <a href="http://www.flickr.com/photos/kent-chen/">Kent Chen</a>.
 </figcaption>
 </figure>
 
 
 > Do you want to process words or edit text?
 
-I am using vim for more than 12 years, most of the time as my primary editor for text and code.
+I use vim for more than 12 years, most of the time as my primary editor for text and code. This post is a summary of a short master class for Donetsk Coffee'n'code meeting in December 2013. Experienced vim users may find collection of links at the end useful.
 
 
 <!--more-->
@@ -45,6 +45,8 @@ The easiests way to go into insert (editing) mode is with `i` key, one can go ba
 
 
 ## Editing Language
+
+Many keys are mnemonic, and after some time "make sense". For example `a`, `A`, `5g`.
 
 Moreover, a very powerful concept of vim is *text objects*.
 
